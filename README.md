@@ -114,11 +114,3 @@ npm run invite:generate            # e.g. KANATARA-5F2C8A
 yarn invite:generate VIP-TEST-001
 ```
 脚本逻辑：若 `.env` 未配置 `DATABASE_URL`，脚本直接打印生成结果；否则通过 Prisma 新增 InviteCode 记录。
-
-## 10. 下一步可拓展方向
-1. 将 API 中的静态返回值替换为真实 Prisma 查询与业务逻辑，完善错误处理 & DTO 校验。
-2. 接入真实 AI 服务（语音评测、作文批改、AI 助手），把 `TODO` 标记或示例函数替换为 SDK/HTTP 调用。
-3. 接入 WebSocket/Edge Runtime，为梯度课程问答、社区任务提醒等提供实时能力。
-4. 上线 PWA / 移动端体验，增强录音、手写识别等沉浸式交互。
-
-> 本 README 已记录所有核心改动：模块、API、Prisma schema、脚本、AI 助手系统提示与使用方式，方便后续团队接力开发。
