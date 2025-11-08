@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+.next/cache/
+out/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Env files (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.eslintcache
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Platform/tooling
+.vercel/
+.turbo/
+
+# Temp/uploads
+tmp/
+temp/
+uploads/
+
+# Database dumps/backups
+*.sql
+*.dump
+*.bak
+
